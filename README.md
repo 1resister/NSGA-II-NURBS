@@ -37,6 +37,8 @@ main_function                % 完整 NSGA-II 优化
 test_speed_planning(true)
 ```
 
+本次公开版本于 2026-10-06 在 MATLAB R2026a 中运行 `test_speed_planning(false)`，8 个合成速度规划用例和相关回归断言全部通过，包括共振指标检查。56 个 MATLAB 源文件的静态检查未发现语法错误。本次未运行完整 NSGA-II 优化或 `test_speed_planning(true)`；算法文档中的其他结果属于历史验证记录。
+
 配置集中在 [`trajectory_config.m`](SR5NURBS/SR5NURBS/trajectory_config.m)。当前默认种群规模为 20、迭代次数为 20；可调整 `cfg.nsga.pop` 和 `cfg.nsga.gen`。计算成本取决于路径和约束，完整优化通常比单条轨迹评价耗时更长。
 
 ## 输入与结果
