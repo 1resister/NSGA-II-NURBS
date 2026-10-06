@@ -1,0 +1,31 @@
+# MATLAB runtime outputs and optimization checkpoints
+SR5NURBS/SR5NURBS/output/
+SR5NURBS/SR5NURBS/chromosome_*.txt
+*.asv
+*.m~
+*.mex*
+slprj/
+
+# Local working materials and services
+.codex_artifacts/
+backups/
+weekly-reports/
+outputs/
+matlab-mcp-core-server/
+SR5NURBS/SR5NURBS/NURBS/
+
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Archives and temporary files
+*.zip
+*.tmp
+*.temp
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
