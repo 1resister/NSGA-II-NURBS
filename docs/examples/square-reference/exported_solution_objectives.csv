@@ -1,0 +1,2 @@
+solution_id,pareto_objective_time,pareto_objective_error,pareto_objective_vibration,reevaluated_time,reevaluated_error,reevaluated_vibration,shared_jerk_applied,selected_jerk_utilization
+1,79.2516567049624,0.0809703571564893,0.231564572252993,79.2516567049624,0.0809703571564893,0.231564572252993,0,0
